@@ -5,7 +5,7 @@
           <ul class="clearfix">
             <li><a href="/">Home</a></li>
             <li><a href="/assignments">Assignments</a></li>
-            <li><a href="336.unclejackstradingpost.com">Project</a></li>
+            <li><a href="/unclejacks">Projects</a></li>
             <li><a href="https://www.linkedin.com/in/gonzf">LinkedIn</a></li>
             <li><a href="https://github.com/4037580">Github</a></li>
             <li><a href="/random">Random</a></li>

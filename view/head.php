@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Felipe</title>                  
+  <title>Felipe</title>
   <link rel="icon" type="image/png" href="/images/favicon.png"/>
   <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
   <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
@@ -35,4 +35,4 @@
     footer  { border-top: 1px solid #FB8C00;}
   </style>
 </head>
-<body>    
+<body>
