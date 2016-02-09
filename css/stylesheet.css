@@ -1,0 +1,293 @@
+@import url('http://fonts.googleapis.com/css?family=Anton|Roboto:100,300,400,500');
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fafafa;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: #303f9f;
+	color: #FFF;
+	height: 220px;
+	margin: 0;
+}
+
+header img {
+  width: 120px;
+  float: left;
+  margin: 50px 20px 0 18.55%;
+  transition: transform 1s ease-in-out;
+}
+
+header img:hover {
+  transform: rotate(180deg);
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 220px;
+}
+
+nav {
+	background-color: #3f51b5;
+	height: 56px;
+	box-shadow: 0 3px 4px rgba(0,0,0,.12),0 6px 8px rgba(0,0,0,.20);
+}
+
+nav ul {
+  padding: 0;
+	margin: 0 0 0 15.98%;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	padding: 17px 2.8%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.85;
+	font-size: large;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+	opacity: 1;
+}
+
+.nav-placeholder {
+  margin: 0;
+  height: 56px;
+}
+
+.fixed {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.fixed .nav-inner {
+  padding: 0;
+}
+
+.fixed .nav-inner-most {
+  width: 100%;
+  margin: 0 auto;
+  height: 56px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+#hero {
+  background-color: #fff;
+  width: 63%;
+  height: 700px;
+  display: block;
+  margin: 45px auto;
+  box-shadow: 0 0px 4px rgba(0,0,0,.12),0 4px 8px rgba(0,0,0,.24);
+}
+#hero div {
+  position: absolute;
+  z-index: 0;
+}
+#hero div.previous {
+  z-index: 1;
+}
+#hero div.current {
+  z-index: 2;
+}
+
+#hero img {
+  width: 100%;
+}
+
+article {
+  width: 64.5%;
+  height: inherit;
+  min-height: 100px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+section {
+  width: 50%;
+  margin: 50px 0 0 4%;
+  height: inherit;
+  min-height: 300px;
+  float: left;
+}
+
+h1 {
+  font-size: 1.8em;
+  padding: 0;
+  margin: 0 0 20px 0;
+  line-height: 130%;
+  font-weight: 300;
+}
+
+p {
+  padding: 4px 0 0 0;
+  margin: 0 0 20px 0;
+  font-size: small;
+  text-align: justify;
+  line-height: 160%;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+section ul,
+section ol {
+  padding-top: 4px;
+  margin-top: 0;
+  font-size: normal;
+}
+
+section ul li,
+section ol li {
+  line-height: 160%;
+}
+
+section a {
+}
+
+aside {
+  width: 34.3%;
+  margin: 54px 0 0 7.7%;
+  height: inherit;
+  min-height: 300px;
+  float: left;
+}
+
+aside img {
+  width:100%; 
+  margin-bottom: 50px; 
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 2px 4px rgba(0,0,0,.28);
+}
+
+img.thumbnail {
+  width: 30%;
+  margin: 30px 10px 0 13px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  transition: box-shadow 300ms;
+}
+
+img.thumbnail:hover {
+  box-shadow: 0 0 8px rgba(0,0,0,.14),0 8px 12px rgba(0,0,0,.28);
+}
+
+iframe {
+  margin: 50px 0 0 120px;
+}
+
+.social {
+  display: block;
+  width: 56px;
+  height: 236px;
+  position: fixed;
+  right: 1.6%;
+  bottom: 23px;
+}
+
+.social:hover > .g,
+.social:hover > .t, 
+.social:hover > .f {
+  display: block;
+}
+
+.g,.t,.f {
+  display: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0 8px 20px 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  transition: box-shadow 300ms;
+}
+
+.g:hover,.t:hover,.f:hover {
+  box-shadow: 0 0 8px rgba(0,0,0,.14),0 8px 12px rgba(0,0,0,.28);
+}
+
+.g { background-color: #DE4B36; }
+.t { background-color: #31CDFD; }
+.f { background-color: #395B96; }
+
+.g img {
+  margin: 5px 3px 0 7px;
+  width: 30px;
+  border-radius: 30%;
+}
+
+.t img {
+  margin: 5px;
+  width: 30px;
+  border-radius: 30%;
+}
+
+.f img {
+  margin: 5px;
+  width: 24px;
+  border-radius: 30%;
+}
+
+.s {
+  background-color: #000;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  position: fixed;
+  right: 1.6%;
+  bottom: 23px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+  transition: box-shadow 300ms;
+}
+
+.s:hover {
+  box-shadow: 0 0 8px rgba(0,0,0,.14),0 8px 12px rgba(0,0,0,.28);
+}
+
+.s img {
+  margin: 16px;
+  width: 24px;
+}
+
+.space {
+  width: 59.3%;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+}
+
+footer {
+  background-color:;
+  width: 63%;
+  height: 71px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: small;
+  clear: both;
+}
