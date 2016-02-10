@@ -24,7 +24,7 @@ try {
 }
 
 function unclejacksdb(){
-$server = 127.2.200.130;
+$server = '127.2.200.130';
 $database = 'unclejacks';
 $username = 'adminen1InPN';
 $password = 'P5X_uMZPdwSl';
