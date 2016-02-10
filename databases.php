@@ -8,10 +8,10 @@
  */
 
 function unclejacksdb(){
-$server = 'localhost';
+$server = '127.2.200.130:3306';
 $database = 'unclejacks';
-$username = 'felipeg';
-$password = 'g9j2nl7b';
+$username = 'adminen1InPN';
+$password = 'P5X_uMZPdwSl';
 $dsn = 'mysql:host='.$server.';dbname='.$database;
 $options = array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION);
 
