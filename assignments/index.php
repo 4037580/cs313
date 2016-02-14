@@ -7,7 +7,9 @@
         <li><a href="hello.html">Hellow World</a></li>
         <li><a href="/">Home Page</a></li>
         <li><a href="survey">Survey</a></li>
-        <li><a href="/">Data Bases Tables</a></li>
+        <li><a href="/">Database Setup</a></li>
+        <li><a href="/unclejacks/products/">Databases Access</a></li>
+        <li><a href="/unclejacks/products/">PHP Database Modification</a></li>
       </ul>
     </section>
   </article>
