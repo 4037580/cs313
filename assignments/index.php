@@ -4,9 +4,9 @@
     <section>
       <h1>Assignemtns</h1>
       <ul>
-        <li><a href="hello.html">Hellow World</a></li>
+        <li><a href="hello.php">Hellow World</a></li>
         <li><a href="/">Home Page</a></li>
-        <li><a href="survey">Survey</a></li>
+        <li><a href="survey/survey.php">Survey</a></li>
         <li><a href="/">Database Setup</a></li>
         <li><a href="/unclejacks/products/">Databases Access</a></li>
         <li><a href="/unclejacks/products/">PHP Database Modification</a></li>

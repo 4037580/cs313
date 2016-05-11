@@ -3,9 +3,7 @@ require ($_SERVER['DOCUMENT_ROOT'].'/databases.php');
 require ($_SERVER['DOCUMENT_ROOT'].'/unclejacks/model/images_db.php');
 require ($_SERVER['DOCUMENT_ROOT'].'/unclejacks/model/products_db.php');
 require ($_SERVER['DOCUMENT_ROOT'].'/unclejacks/model/categories_db.php');
-
 $db = unclejacksdb();
-
 $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);
 if ($action == NULL) {
     $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
@@ -13,12 +11,10 @@ if ($action == NULL) {
         $action = 'grid_products';
     }
 }
-
 switch ($action) {
   case 'cancel':
   case 'grid_products':
     $products = get_products();
-
     include('product_grid.php');
     break;
   case 'product':
